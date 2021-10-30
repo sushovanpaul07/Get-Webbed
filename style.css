@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333647;
+}
+.bulb {
+  font-size: 40px;
+  color: rgb(255, 193, 111);
+  margin-right: 100px;
+}
+.modeToggleHolder {
+  margin-top: 50px;
+  display: flex;
+  justify-content: right;
+  height: 100px;
+  width: 100%;
+}
+.profilePic {
+  border-radius: 20px;
+  height: 370px;
+  width: 370px;
+}
+.profileHolder {
+  display: flex;
+  margin: 200px;
+  margin-top: 50px;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 100px;
+}
+.name {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+}
+.description {
+  margin-top: 50px;
+  color: #888;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.aboutMeScreen {
+  background-color: #242834;
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+}
+.header {
+  color: white;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.underline {
+  margin-top: 20px;
+  background-color: #fec15c;
+  width: 50px;
+  height: 2px;
+
+  text-align: left;
+  margin-left: 50px;
+}
+
+.aboutMe {
+  color: #888;
+  font-size: 20px;
+  margin: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.EducationalBgScreen {
+  padding-top: 50px;
+  width: 100%;
+  height: 700px;
+}
+.edHeader {
+  color: #fec15c;
+  font-family: "Poppins", sans-serif;
+}
+.qualification {
+  margin: 70px;
+  margin-left: 100px;
+}
+.courseDetails {
+  color: rgb(175, 175, 175);
+  font-family: "Poppins", sans-serif;
+}
+.SkillsBgScreen {
+  padding-top: 50px;
+  width: 100%;
+  height: 700px;
+}
+.skillIcon {
+  font-size: 120px;
+  color: white;
+}
+.skillCard {
+  background-color: #ffaf2a;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skillHolder {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skillName {
+  color: white;
+  font-size: 20px;
+  max-width: 200px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.ProjectBgScreen {
+  padding-top: 50px;
+  width: 100%;
+  height: 700px;
+}
+.projectDetails {
+  color: rgb(175, 175, 175);
+  font-family: "Poppins", sans-serif;
+}
