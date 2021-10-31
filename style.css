@@ -2,11 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #333647;
+  transition: ease-in-out 0.4s;
 }
 .bulb {
   font-size: 40px;
-  color: rgb(255, 193, 111);
   margin-right: 100px;
+  transition: ease-in 0.1s;
 }
 .modeToggleHolder {
   margin-top: 50px;
@@ -25,7 +26,6 @@ body {
   margin: 200px;
   margin-top: 50px;
 }
-
 .profileDetails {
   display: flex;
   flex-direction: column;
@@ -45,10 +45,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .aboutMeScreen {
-  background-color: #242834;
   width: 100%;
   height: 600px;
   padding-top: 50px;
+}
+.shade {
+  background-color: #242834;
 }
 .header {
   color: white;
@@ -59,7 +61,8 @@ body {
   margin-top: 20px;
   background-color: #fec15c;
   width: 50px;
-  height: 2px;
+  height: 4px;
+  border: 0;
 
   text-align: left;
   margin-left: 50px;
@@ -156,12 +159,16 @@ body {
   transition: ease-in-out 0s;
 }
 .socialIcon:hover {
-  /* font-size: 40px; */
   color: #ffdda6;
 }
 .contactMeScreen {
-  background-color: #242834;
   width: 100%;
   height: 300px;
   padding-top: 10px;
+}
+.on {
+  color: rgb(255, 193, 111);
+}
+.off {
+  color: rgb(175, 175, 175);
 }
